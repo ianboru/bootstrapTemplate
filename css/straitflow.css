@@ -1,4 +1,15 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
   padding-top: 3.5rem;
+  height: 100%;
 }
+.jumbotron { 
+/* The image used */
+    background-image:  url("../img/everyone-working-together.jpg");    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
